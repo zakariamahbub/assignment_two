@@ -1,0 +1,103 @@
+body{
+	margin: 0;
+}
+section{
+	
+	background-image:url(../images/bg.png);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-color: white;
+	background-position: right bottom;
+	background-size: 60%;
+		}
+text1{
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-color: white;
+	background-position: right bottom;
+	background-size: 60%;
+}
+
+header {
+
+background: #cbedf7;
+
+width: 90%;
+
+margin-left: auto;
+
+margin-right: auto;
+}
+div{width: 20%;float: left;}
+.logo{
+    color: #01215a;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+nav{
+    width: 80%;
+    float: right;
+}
+
+nav ul{
+	 padding: 0;
+	 margin: 0;
+	 text-align: right;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #594a5f;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 30px;
+    transition: background-color 0.4s;
+}
+
+nav ul li a:hover{
+	color: #fff;
+	background-color: #01A3D4;
+}
+
+.but{
+	list-style: none;
+	display: inline-block;
+}
+
+.but a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffec47;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 30px;
+    transition: background-color 0.4s;
+    background-color: #2964ff;
+}
+
+.but a:hover{
+	color: #fff;
+}
+#text1{
+	padding-left: 290px;
+	margin-top: 220px;
+	display: block;
+	background-position: left bottom;
+}
+#text1 h1{
+	font-size: 30px;
+	font-weight: 900;
+}
+#text1 p{
+	
+	font-weight: 700;
+}
